@@ -1,0 +1,81 @@
+/* Write your CSS here */
+
+.app-store-container {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-heading {
+  font-family: Bree Serif;
+  color: #1e293b;
+  font-size: 32px;
+}
+
+.input-container {
+  border-color: #7b8794;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+}
+.user-input {
+  background-color: transparent;
+  color: #dfe2e5;
+  font-family: Bree Serif;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+}
+.search-icon {
+  width: 26px;
+  height: 26px;
+}
+.tab-items-container {
+  margin-top: 10px;
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+}
+
+.active-btn {
+  border-bottom: 3px solid #2563eb;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  color: #2563eb;
+  padding: 8px 20px;
+}
+.app-items-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
+
+@media (min-width: 576px) {
+  .main-heading {
+    font-size: 34px;
+  }
+
+  .input-container {
+    width: 300px;
+  }
+  .user-input {
+    font-size: 14px;
+  }
+  .search-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .tab-items-container {
+    margin-top: 10px;
+  }
+}
